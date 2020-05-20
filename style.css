@@ -1,0 +1,117 @@
+body {
+	background: #fafafa;
+	color: #1D1D1F;
+	font-family: 'DM Mono', monospace;
+	font-size: 17px;
+	font-weight: lighter;
+	line-height: 25px;
+	background-image: url(images/a.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+h1,h2,h3 {
+	font-family:  'Balsamiq Sans', cursive;
+	letter-spacing: 2px;
+
+}
+
+h1 {
+	
+	font-size: 42px;
+	font-weight: 400;
+}
+
+h2 {
+	
+	font-size: 34px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: #0097E1;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: rgb(200,200,250);
+}
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+.box-white {
+	background: white;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.box-white:hover {
+	background: rgba(240,240,240,0.5);
+	font-size: 20px;
+}
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background: #0097E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.btn-blue:hover {
+	background: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+	transition: color 0.3s ease;
+}
+
+.list-inline i:hover {
+	color: rgb(0,0,0);
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
